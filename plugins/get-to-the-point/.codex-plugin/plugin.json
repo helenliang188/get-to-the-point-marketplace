@@ -1,0 +1,25 @@
+{
+  "name": "get-to-the-point",
+  "version": "0.1.0",
+  "description": "Rewrite communications so they are direct, conversational, evidence-led, and values-grounded.",
+  "author": {
+    "name": "Helen Liang"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Get To The Point",
+    "shortDescription": "Rewrite comms with clear, evidence-led language.",
+    "longDescription": "Get To The Point helps rewrite paragraphs, Slack posts, emails, docs, announcements, and leader communications so readers understand the point quickly, trust the claim because it is grounded in evidence, and see the values behind important decisions.",
+    "developerName": "Helen Liang",
+    "category": "Productivity",
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/bullseye.svg",
+    "logo": "./assets/bullseye.svg",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $get-to-the-point to rewrite this paragraph."
+    ]
+  }
+}

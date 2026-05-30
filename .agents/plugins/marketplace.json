@@ -1,0 +1,20 @@
+{
+  "name": "get-to-the-point-marketplace",
+  "interface": {
+    "displayName": "Get To The Point"
+  },
+  "plugins": [
+    {
+      "name": "get-to-the-point",
+      "source": {
+        "source": "local",
+        "path": "./plugins/get-to-the-point"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

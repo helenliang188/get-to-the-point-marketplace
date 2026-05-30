@@ -4,10 +4,10 @@ Codex plugin marketplace for `get-to-the-point`, a writing skill that rewrites c
 
 ## Install
 
-After this directory is published as a Git repo, users can add the marketplace:
+Add the public marketplace:
 
 ```bash
-codex plugin marketplace add <owner>/<repo>
+codex plugin marketplace add helenliang188/get-to-the-point-marketplace
 codex plugin add get-to-the-point@get-to-the-point-marketplace
 ```
 
